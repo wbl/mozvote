@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link 
+       rel="stylesheet" type="text/css"
+       href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"/>
+    <script src="static/vote-secure.js"></script>
+    <script src="static/votelib.js"></script>
+    <script src="static/sjcl.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row" id="intro">
+	<h1 class="center">Click on one of the below to vote so that no one can see your vote.</h1>
+      </div>
+      <div class="row" id="ballot">
+	<div class="col-md-4">
+	  <img class="img-responsive" 
+	       id="coffee" src="static/coffee.jpg"/>
+	</div>
+	<div class="col-md-4 col-md-offset-3">
+	  <img id="tea" class="img-responsive"
+	       src="static/tea.jpg"/>
+	</div>
+      </div>
+      <div class="row" id="results">
+	<div class="col-md-4">
+	  <p class="lead bg-success text-center" id="coffeeplace"></p>
+	</div>
+	<div class="col-md-4 col-md-offset-3">
+	  <p class="lead bg-success text-center" id="teaplace"></p>
+	</div>
+      </div>
+      <div class="row">
+	<div class="col-md-1 col-md-offset-5">
+	  <button class="btn btn-primary" id="button">Show Results</button>
+	</div>
+      </div>
+    </div>
+  </body>
+</html>

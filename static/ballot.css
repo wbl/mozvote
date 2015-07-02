@@ -1,0 +1,27 @@
+#intro {
+    font-size: 25pt;
+    width:100%;
+    text-align:center;
+}
+
+#ballot {
+    width:100%;
+    display: inline-block;
+    margin-top: 20%;
+}
+
+#coffee {
+    float: left;
+    display:inline;
+    margin-left: 20%;
+}
+
+#tea {
+    float:right;
+    display:inline;
+    margin-right:20%;
+}
+
+img {
+    height: 250px;
+}

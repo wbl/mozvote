@@ -1,0 +1,3 @@
+This package implements a private voting protocol, as well as contains a demo.
+Note that the public and private keys are hardcoded: you will want to use the
+output of keygen.go to change them in a real application.

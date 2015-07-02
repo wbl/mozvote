@@ -1,0 +1,7 @@
+Most files are
+Copyright Mozilla Corporation (c) 2015
+See the LICENSE file for a description of your rights to use this software.
+
+Code in the static/sjcl.js file is from SJCL, the Stanford Javascript Crypto
+Library. It is not copyrighted by Mozilla, and is licencesd under the
+BSD license.
